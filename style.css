@@ -1,0 +1,131 @@
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar .right-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+.top-bar .left-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.main--navbar{
+    background-color: white;
+}
+.introBox{
+    height:500px;
+   background-image: url('./imgpsh_fullsize_anim.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro--header{
+    font-size: 50px;
+}
+.introBox h5{
+    max-width: 900px;
+}
+.get--started--button,.get-in-touch-button{
+    width: 250px;
+    background-color:rgb(59, 213, 213);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.featureBox--container,.get-in-touch-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.feature--box--wrapper,.work-card-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.feature--box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.card{
+    margin: 20px;
+}
+.feature--box i{
+
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 60px;
+}
+.feature--header{
+    margin-right: 20px;
+}
+.feature--intro,.work-intro,.work-with-us{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.work-container{
+    padding-top: 20px;
+    background-color: rgb(190, 178, 178);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work--card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright{
+
+    display: flex;
+    align-items: center;
+}
+.copyright,.footer-navigation{
+    display: flex;
+    background-color:black ;
+    align-items: center;
+    justify-content: center;
+    color: rgba(240, 248, 255, 0.622);
+}
+.footer-navigation{
+    
+    margin-left: 20%;
+    align-items: center;
+}
+.footer-navigation li{
+
+    margin-right: 20px;
+   justify-content: center;
+}
+.footer-summary{
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: rgb(66, 71, 95);
+    color: rgb(236, 229, 229);
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+}
+.free-updates .email--input{
+    background-color: rgb(192, 192, 192);
+    
+}
+.free-updates button{
+    display: inline;
+
+}
