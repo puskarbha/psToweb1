@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kdam+Thmor+Pro&display=swap');
+
 .top-bar{
     display: flex;
     justify-content: space-between;
@@ -31,6 +34,7 @@
 }
 .intro--header{
     font-size: 50px;
+   
 }
 .introBox h5{
     max-width:900px;
@@ -75,13 +79,20 @@
     margin-top: 20px;
     font-size: 50px;
     font-weight: 700;
+    font-family: 'Kdam Thmor Pro';
 }
 .work-container{
     padding-top: 20px;
     background-color: rgb(190, 178, 178);
+
+    
+}
+.work-container-header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin:0 5% 0 5%;
 }
 .work--card .card-body{
     display: flex;
@@ -89,9 +100,14 @@
     align-items: center;
     justify-content: center;
 }
+.carousel-container{
+    margin: 5% 10%;
+    display: block;
+    overflow: hidden;
+
+}
 
 .copyright{
-
     display: flex;
     align-items: center;
 }
@@ -166,7 +182,6 @@
        
       }
   } */
-
 
   .body--container {
     margin-right: 10%;
